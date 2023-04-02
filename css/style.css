@@ -149,12 +149,12 @@ h3{
     font-family: 'Work Sans', sans-serif;
     font-size: 75px;
     font-weight: 600;
+    margin-bottom: 81px;
 
 }
 
 .cards{
     width: 100%;
-    margin-top: 81px;
     display: flex;
     justify-content: space-between;
 
@@ -184,4 +184,98 @@ h3{
     justify-content: space-between;
     margin-top: 54px;
     margin-bottom: 17px;
+}
+
+/* section2 */
+
+.section3{
+    width: 70%;
+    margin: 0 auto 225px auto;
+
+}
+
+.section3_div{
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.section3_div1{
+    width: 60%;
+    height: 645px;
+    position: relative;
+}
+
+
+
+.furniture1{
+    width: 100%;
+    height: 100%;
+}
+
+.section3_div_text{
+    color: #DCB47A;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    width: 25%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section3_div2{
+    width: 39%;
+    height: 645px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.furniture2{
+    width: 100%;
+    height: 49%;
+}
+
+/* footer */
+footer{
+    width: 100%;
+    height: 378px;
+    background-color: #262626;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h4{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-top: 60px;
+    margin-bottom: 48px;
+}
+
+span{
+    color: #DCB47A;
+}
+
+.footer_text{
+    color: #FFFFFFCC;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+button{
+    width: 200px;
+    height: 64px;
+    background-color: #DCB47A;
+    color: #FFFFFF;
+    padding: 22px 35px;
+    border-radius: 60px;
+    margin-top: 49px;
+    margin-bottom: 60px;
+    font-size: 17px;
 }
