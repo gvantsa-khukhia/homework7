@@ -1,0 +1,62 @@
+.container{
+max-width: 1920px;
+width: 100%;
+margin-inline: auto;
+border: 10px solid red;
+    
+}
+
+header{
+    max-width: inherit;
+    width: inherit;
+    height: 130px;
+    padding: 0 320px;
+    background-color: #262626;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+ul{
+    display: flex;
+    gap: 68px;
+    padding-left: 360px;
+    margin-right: 706px;
+}
+
+nav{
+    display: flex;
+    
+}
+a{
+    text-decoration: none;
+    
+}
+.active{
+    color: #DCB47A;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
+    font-style: semiBold; 
+      
+}
+
+.noactive{
+    color: #FFFFFF;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
+    font-style: semiBold;
+    
+    
+}
+
+.fa-bag-shopping{
+    color: #FFFFFF;
+    width: 32px;
+    height: 36.57px;
+    
+}
+
